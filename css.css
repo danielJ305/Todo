@@ -1,0 +1,169 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+body {
+    background: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Fredoka One',
+    cursive;
+    color:#c2cf60;
+}
+    h1:hover {
+        color:#e3f06e;
+    }
+
+/*** Container ***/
+.todoContainer {
+    width: 550px;
+    background-color: #AC4EAF;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 100px;
+    border-radius: 5%;
+    border: 4px #e3f06e solid;
+}
+
+/*** Buttons ***/
+.buttons-section {
+    float: right;
+    padding: 10px;
+    width: 220px;
+    margin:0px;
+    padding:0px;
+    padding-left:20px;
+}
+    input {
+        border-radius:10px;
+        border-style: none;
+        text-align:center;
+        outline:none;
+    }
+        input:hover {
+            background-color:#E6AFE8;
+        }
+        button {
+            display:block;
+            background-color: #c2cf60
+            /*rgba(149, 49, 153, .8)*/
+            ;
+            border-style: none;
+            border-radius:10px;
+            font-family: 'Fredoka One',
+            cursive;
+            color:#851688;
+            width: 196.2px;
+            padding: 6px;
+            font-size:16px;
+            outline:none;
+        }
+            button:hover {
+                background-color:#e3f06e;
+            }
+                .addButton {
+                    margin-top:10px;
+                }
+                    .addTitleButton {
+                        margin-top:10px;
+
+                    }
+                        .removeButton {
+                            margin-top:10px;
+                
+                        }
+
+/*** List ***/
+.todo-list {
+    margin:0px;
+    padding:0px;
+    width: 265px;
+    padding-left:20px;
+    font-family: 'Indie Flower',
+    cursive;
+    font-size:18px;
+}
+    .todo-list ul {
+            margin:0px;
+            padding:0px;
+    }   
+        .todo-list li {
+            width: 280px;
+            margin:auto;
+            padding:10px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            list-style-type: none;
+            display: inline-block;
+            background-color:#E6AFE8;
+        }
+            .list-buttons {
+                display:block;
+                text-align: center;
+                margin:5px;
+                outline:none;
+            }
+                .erase-li {
+                    display: inline-block;
+                    margin:0px;
+                    margin: 0 3px 0 3px;
+                    border-style:none;
+                    border-radius: 5px;
+                    background-color: #c2cf60/*rgba(149, 49, 153, .8)*/;
+                    color:#851688;
+                    width:34px;
+                    padding:0px;
+                    padding:2px;
+                    font-family: 'Fredoka One', cursive;
+                    font-size:11px;
+                }
+                    .erase-li:hover {
+                        background-color:#e3f06e;
+                    }
+                    .up {
+                        display: inline-block;
+                        margin:0px;
+                        margin: 0 3px 0 3px;
+                        border-style:none;
+                        border-radius: 5px;
+                        background-color: #c2cf60/*rgba(149, 49, 153, .8)*/;
+                        color:#851688;
+                        width:34px;
+                        padding:0px;
+                        padding:2px;
+                        font-family: 'Fredoka One', cursive;
+                        font-size:11px;
+                    }
+                        .up:hover {
+                            background-color:#e3f06e;
+                        }
+                        .down {
+                            display: inline-block;
+                            margin:0px;
+                            margin: 0 3px 0 3px;
+                            border-style:none;
+                            border-radius: 5px;
+                            background-color: #c2cf60/*rgba(149, 49, 153, .8)*/;
+                            color:#851688;
+                            width:60px;
+                            padding:0px;
+                            padding:2px;
+                            font-family: 'Fredoka One', cursive;
+                            font-size:11px;
+                        }
+                            .down:hover {
+                                background-color:#e3f06e;
+                            }
+        
+.note {
+    width: 280px;
+    margin:auto;
+    padding:10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    display: inline-block;
+    background-color:#E6AFE8;
+}
