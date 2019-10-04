@@ -200,21 +200,6 @@ addTitleButton.addEventListener(`click`, () => {
     input.value = ``;
 });
 
-//**** Remove Last Li Element in the List
-removeButton.addEventListener(`click`, () => {
-    let ul = document.getElementsByTagName(`ul`)[0];
-    let li = document.querySelector(`li:last-child`);
-    let h4 = document.querySelector(`h4:last-child`);
-    if (li) {
-        ul.removeChild(li);
-    } else if (h4) {
-        ul.removeChild(h4);
-    }
-    let liClick = document.querySelector(`li h4`);
-    liClick.addEventListener(`select`, () => {
-        liClick.style.color = `red`;
-    })
-});
 
 
 

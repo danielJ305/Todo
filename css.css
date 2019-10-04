@@ -10,21 +10,21 @@ h1 {
     text-align: center;
     font-family: 'Fredoka One',
     cursive;
-    color:#c2cf60;
+    color:#ffe66d;
 }
     h1:hover {
-        color:#e3f06e;
+        color:#6ca6c1;
     }
 
 /*** Container ***/
 .todoContainer {
     width: 550px;
-    background-color: #AC4EAF;
+    background-color: #2f3061;
     margin: auto;
     overflow: hidden;
     padding-bottom: 100px;
     border-radius: 5%;
-    border: 4px #e3f06e solid;
+    border: 4px #ffe66d solid;
 }
 
 /*** Buttons ***/
@@ -37,31 +37,32 @@ h1 {
     padding-left:20px;
 }
     input {
-        border-radius:10px;
         border-style: none;
         text-align:center;
         outline:none;
+        width: 196.2px;
+        padding:0 !important;
+
     }
         input:hover {
-            background-color:#E6AFE8;
+            background-color:#f7fff7;
         }
         button {
             display:block;
-            background-color: #c2cf60
+            background-color: #ffe66d
             /*rgba(149, 49, 153, .8)*/
             ;
             border-style: none;
-            border-radius:10px;
             font-family: 'Fredoka One',
             cursive;
-            color:#851688;
+            color:#343434;
             width: 196.2px;
             padding: 6px;
             font-size:16px;
             outline:none;
         }
             button:hover {
-                background-color:#e3f06e;
+                background-color:#6ca6c1;
             }
                 .addButton {
                     margin-top:10px;
@@ -97,7 +98,7 @@ h1 {
             margin-bottom: 5px;
             list-style-type: none;
             display: inline-block;
-            background-color:#E6AFE8;
+            background-color:#f7fff7;
         }
             .list-buttons {
                 display:block;
@@ -110,9 +111,8 @@ h1 {
                     margin:0px;
                     margin: 0 3px 0 3px;
                     border-style:none;
-                    border-radius: 5px;
-                    background-color: #c2cf60/*rgba(149, 49, 153, .8)*/;
-                    color:#851688;
+                    background-color: #ffe66d/*rgba(149, 49, 153, .8)*/;
+                    color:#343434;
                     width:34px;
                     padding:0px;
                     padding:2px;
@@ -120,16 +120,15 @@ h1 {
                     font-size:11px;
                 }
                     .erase-li:hover {
-                        background-color:#e3f06e;
+                        background-color:#6ca6c1;
                     }
                     .up {
                         display: inline-block;
                         margin:0px;
                         margin: 0 3px 0 3px;
                         border-style:none;
-                        border-radius: 5px;
-                        background-color: #c2cf60/*rgba(149, 49, 153, .8)*/;
-                        color:#851688;
+                        background-color: #ffe66d/*rgba(149, 49, 153, .8)*/;
+                        color:#343434;
                         width:34px;
                         padding:0px;
                         padding:2px;
@@ -137,16 +136,15 @@ h1 {
                         font-size:11px;
                     }
                         .up:hover {
-                            background-color:#e3f06e;
+                            background-color:#6ca6c1;
                         }
                         .down {
                             display: inline-block;
                             margin:0px;
                             margin: 0 3px 0 3px;
                             border-style:none;
-                            border-radius: 5px;
-                            background-color: #c2cf60/*rgba(149, 49, 153, .8)*/;
-                            color:#851688;
+                            background-color: #ffe66d/*rgba(149, 49, 153, .8)*/;
+                            color:#343434;
                             width:60px;
                             padding:0px;
                             padding:2px;
@@ -154,7 +152,7 @@ h1 {
                             font-size:11px;
                         }
                             .down:hover {
-                                background-color:#e3f06e;
+                                background-color:#6ca6c1;
                             }
         
 .note {
@@ -165,5 +163,5 @@ h1 {
     margin-bottom: 5px;
     list-style-type: none;
     display: inline-block;
-    background-color:#E6AFE8;
+    background-color:#f7fff7;
 }
